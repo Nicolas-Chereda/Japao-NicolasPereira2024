@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Japão</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Um site sobre o Japão. Com curiosidades, economia, turismo e muito mais!">
+  <meta name="keywords" content="Japão, Tokyo, Turismo, Curiosidades">
+  <link rel="icon" type="img/jpg" href="img/japao.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <nav>
+    <!--Menu-->
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="geografia.html">Geografia</a></li>
+      <li><a href="demografia.html">Demografia</a></li>
+      <li><a href="economia.html">Economia</a></li>
+      <li><a href="turismo.html">Turismo</a></li>
+      <li><a href="curiosidades.html">Curiosidades</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  
+  <!--Formulário-->
+  <h2 class="form">Formulário</h2>
+  <form name="form1" action="ok.html" onsubmit="return validar()" method="post">
+    Nome: <input type="text" name="nome" id="nome"> <br><br>
+    E-Mail: <input type="text" name="email" id="email"> <br><br>
+    Viagem para: 
+    <select name="cidade" id="cidade">
+      <option selected>Selecione a Cidade</option>
+      <option>Tóquio</option>
+      <option>Kyoto</option>
+      <option>Nara</option>
+      <option>Osaka</option>
+      <option>Hiroshima</option>
+      <option>Sapporo</option>
+    </select>
+    <br><br>
+    Comentários: <br>
+    <textarea cols="30" rows="10"></textarea> <br>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+  </form>
+  
+  <br><br><br><br>
+  
+  <!--Rodapé-->
+  <footer>
+    <h5>Nicolas Henrique 2024 - &copy; Todos os Direitos reservados <br> *Trabalho acadêmico sem fins lucrativos*</h5>
+  </footer>
+</body>
+</html>
