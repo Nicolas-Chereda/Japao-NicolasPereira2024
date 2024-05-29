@@ -11,6 +11,10 @@ body {
     color: #fff;
 }
 
+textarea{
+    resize: none;
+}
+
 footer {
     background-color: #BC002D;
     text-align: center;
